@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 34;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  line-height: 1.5;
+  margin: 0;
+  /* stylelint-disable-next-line declaration-block-no-duplicate-properties */
+  background-color: #fb6476;
+}
+
+.box-1 {
+  display: flex;
+  order: 1px;
+}
+.fieldset-bgc {
+  height: 400px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: rgba(209, 206, 206, 0.658);
+}
+.sign-button {
+  position: relative;
+  left: 60px;
+}
+.register-top-label {
+  color: rgb(247, 244, 244);
+  position: relative;
+  left: 55px;
+}
+.form-register-form {
+  margin-top: 20px;
+  position: relative;
+
+  left: 1000px;
+}

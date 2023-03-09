@@ -1,0 +1,33 @@
+.header {
+  nav {
+    background-color: white;
+    border: radius 6px;
+    margin: 0px;
+    padding: 20px;
+
+    display: flex;
+
+    & a + a,
+    span + a {
+      margin-left: 60px;
+    }
+    & div {
+      margin-left: auto;
+      display: flex;
+      gap: px;
+    }
+  }
+}
+
+.footer {
+  background-color: white;
+  border-radius: 6px;
+  margin: 0px;
+  display: flex;
+  margin-top: 20px;
+  padding: 15px;
+  border-top: 2px solid var(--main-bg-color);
+}
+.container {
+  flex-wrap: wrap;
+}
