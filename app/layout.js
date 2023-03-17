@@ -1,5 +1,4 @@
 import './global.scss';
-import Image from 'next/image';
 import Link from 'next/link';
 import ImageLogo from './ImageLogo';
 import styles from './layout.module.scss';
@@ -15,8 +14,7 @@ export default function RootLayout({ children }) {
           <nav>
             <ImageLogo />
             <Link href="/">Home</Link>
-            <Link href="/about">About</Link>
-            <Link href="/onfire">Onfire</Link>
+
             <Link href="/playlist">Playlist</Link>
             <Link href="/album">Album</Link>
             <Link href="/event">Events</Link>

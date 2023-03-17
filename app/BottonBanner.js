@@ -4,7 +4,7 @@ export default function BottonBanener() {
   return (
     <Image
       class="center"
-      src="/buttonBanner.png"
+      src="/bottonBanner.png"
       width={1478}
       height={1000}
       alt="Picture of the author"

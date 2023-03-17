@@ -1,5 +1,7 @@
+import bcrypt from 'bcrypt';
 import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
+import { createUser, getUsersByUsername } from '../../../../database/users';
 
 const userSchema = z.object({
   username: z.string(),
@@ -8,9 +10,8 @@ const userSchema = z.object({
 });
 
 export type RegisterResponseBody =
-  | { error: { message: string }[] }
-  | { user: { username: string } }
-  | { email: { email: string } };
+  | { errors: { message: string }[] }
+  | { user: { username: string } };
 
 export const POST = async (request: NextRequest) => {
   // registering a user
@@ -21,13 +22,13 @@ export const POST = async (request: NextRequest) => {
   if (!connection.success) {
     return NextResponse.json(
       {
-        error: connection.error.issues,
+        errors: connection.error.issues,
       },
 
       { status: 400 },
     );
   }
-
+  console.log(connection.data);
   if (
     !connection.data.username ||
     !connection.data.password ||
@@ -35,7 +36,7 @@ export const POST = async (request: NextRequest) => {
   ) {
     return NextResponse.json(
       {
-        error: [
+        errors: [
           {
             message:
               'Password, Username or Email is incorrect. Please try again!',
@@ -56,9 +57,35 @@ export const POST = async (request: NextRequest) => {
       { status: 400 },
     );
   }
-  // 1.1-compare the username with the database (get the table)
+  // 1.1-checking if the user exist.
 
-  // 2-hash the password
+  const user = await getUsersByUsername(connection.data.username);
+
+  //checking the database to  (get the table)
+  //and comparing if the users is already in the database
+
+  if (user) {
+    return NextResponse.json({
+      errors: [
+        { message: 'Email or  Username  is already taken. please try again!' },
+      ],
+    });
+  } // 2-hash the password
+
+  const passwordHash = await bcrypt.hash(connection.data.password, 12);
   // 3-create the user
   // 4-return the new username
+  const newUser = await createUser(
+    connection.data.username,
+    connection.data.email,
+    passwordHash,
+  );
+
+  if (!newUser) {
+    return NextResponse.json(
+      { errors: [{ message: 'User registration fail' }] },
+      { status: 500 },
+    );
+  }
+  return NextResponse.json({ user: { username: newUser.username } });
 };

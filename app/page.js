@@ -1,5 +1,5 @@
-import Image from 'next/image';
 import BottonBanner from './BottonBanner';
+import LoginForm from './login/LoginForm';
 import LogoPopulary from './LogoPopulary';
 import PlayYellow from './PlayYellow';
 import WelcomeLogo from './WelcomeLogo';
@@ -7,15 +7,9 @@ import WelcomeLogo from './WelcomeLogo';
 export default function HomePage() {
   return (
     <main>
-      <div className="container">
-        <div className="WelcomeLogo">
-          <WelcomeLogo />
-        </div>
-        <div className="logoPage">
-          <LogoPopulary />
-          <PlayYellow />
-          <BottonBanner />
-        </div>
+      <div className="logo"></div>
+      <div className="logo">
+        <LogoPopulary />
       </div>
     </main>
   );

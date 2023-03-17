@@ -7,7 +7,7 @@ export default function LogoPopulary() {
         className="center"
         src="/middleBanner.png"
         width={1478}
-        height={600}
+        height={700}
         alt="Picture of the author"
       />
     </div>
