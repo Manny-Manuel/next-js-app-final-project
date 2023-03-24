@@ -25,9 +25,9 @@ export default function RootLayout({ children }) {
           </nav>
         </header>
         {children}
-        <footer className={styles.footer}>
-          <div>All right reserved Populary Inc</div>
-        </footer>
+        <div className="footer">
+          <footer>All right reserved Populary</footer>
+        </div>
       </body>
     </html>
   );

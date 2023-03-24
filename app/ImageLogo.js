@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function ImageLogo() {
   return (
     <Image
-      className="center"
+      className="logo-navi"
       src="/navLogo.png"
       width={60}
       height={60}

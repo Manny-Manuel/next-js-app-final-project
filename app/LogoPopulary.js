@@ -2,9 +2,8 @@ import Image from 'next/image';
 
 export default function LogoPopulary() {
   return (
-    <div>
+    <div className="pupulary-logo-banner">
       <Image
-        className="center"
         src="/middleBanner.png"
         width={1478}
         height={700}
