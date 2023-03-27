@@ -41,51 +41,1239 @@ export default function Page() {
 */Q
 
 export const Artist = [
-  {id: 1, artistName: "Justin Quiles", songName: "PAM", Avatar:"Justin_Quiles01-225x225.jpeg"  mp3: "Justin Quiles - PAM.mp3"},
+  {id: 1, artistName: "Justin Quiles", Avatar:"Justin_Quiles01-225x225.jpeg"  mp3: "Justin Quiles - PAM.mp3"},
 
-  {id: 2, artistName: "Justin Quiles", songName: "Orgullo", Avatar:"Justin_Quiles02-225x225.jpeg" , mp3: "Justin Quiles - Orgullo.mp3" },
+  {id: 2, artistName: "Justin Quiles", Avatar:"Justin_Quiles02-225x225.jpeg" , mp3: "Justin Quiles - Orgullo.mp3" },
 
-  {id: 3, artistName: "Justin Quiles", songName: "Esta Noche", Avatar:"Justin_Quiles02-225x225.jpeg" , mp3: "Justin Quiles - Esta Noche.mp3" },
+  {id: 3, artistName: "Justin Quiles",  Avatar:"Justin_Quiles02-225x225.jpeg" , mp3: "Justin Quiles - Esta Noche.mp3" },
 
-  {id: 4, artistName: "Justin Quiles", songName: "Si Ella Quisiera", Avatar:"Justin_Quiles01-225x225.jpeg" , mp3: "Justin Quiles - Si Ella Quisiera.mp3" },
+  {id: 4, artistName: "Justin Quiles", Avatar:"Justin_Quiles01-225x225.jpeg" , mp3: "Justin Quiles - Si Ella Quisiera.mp3" },
 
-  {id: 5, artistName: "Justin Quiles", songName: "Cladiadora", Avatar:"Justin_Quiles02-225x225.jpeg" , mp3: "Justin Quiles - Cladiadora.mp3" },
+  {id: 5, artistName: "Justin Quiles",  Avatar:"Justin_Quiles02-225x225.jpeg" , mp3: "Justin Quiles - Cladiadora.mp3" },
 
-  {id: 6, artistName: "Romeo Santos", songName: "Eres Mia ", Avatar:"Romeo_Santos01-225x225.jpeg" , mp3: "Romeo Santos - Eres Mía.mp3"},
+  {id: 6, artistName: "Romeo Santos", Avatar:"Romeo_Santos01-225x225.jpeg" , mp3: "Romeo Santos - Eres Mía.mp3"},
 
-  {id: 7, artistName: "Romeo Santos", songName: "La Diabla", Avatar:"Romeo_Santos02-225x225.jpeg" , mp3:"Romeo Santos - La Diabla.mp3" },
+  {id: 7, artistName: "Romeo Santos", Avatar:"Romeo_Santos02-225x225.jpeg" , mp3:"Romeo Santos - La Diabla.mp3" },
 
-  {id: 8, artistName: "Romeo Santos", songName: "Llevame Contigo", Avatar:"Romeo_Santos03-225x225.jpeg" , mp3:"Romeo Santos - Llévame Contigo.mp3" },
+  {id: 8, artistName: "Romeo Santos",  Avatar:"Romeo_Santos03-225x225.jpeg" , mp3:"Romeo Santos - Llévame Contigo.mp3" },
 
-  {id: 9, artistName: "Romeo Santos", songName: "Propuesta Indecente", Avatar:"Romeo_Santos01-225x225.jpeg" , mp3:"Romeo Santos - Propuesta Indecente.mp3" },
+  {id: 9, artistName: "Romeo Santos", Avatar:"Romeo_Santos01-225x225.jpeg" , mp3:"Romeo Santos - Propuesta Indecente.mp3" },
 
-  {id: 10,artistName: "Pop Smoke ft Lil Baby", Avatar: "Pop_Smoke-225x225.jpeg", songName: "For The Night", mp3: "Pop Smoke - For The Night ft. Lil Baby, DaBaby .mp3" },
+  {id: 10, artistName: "Pop Smoke ft Lil Baby", Avatar: "Pop_Smoke-225x225.jpeg", s mp3: "Pop Smoke - For The Night ft. Lil Baby, DaBaby .mp3" },
 
-  {id: 11, artistName: "50 Cent ft.Olivia", songName: "Candy Shop", Avatar: "50Cent_225x225.jpeg", mp3: "50 Cent ft. Olivia Candy Shop.mp3"},
+  {id: 11, artistName: "50 Cent ft.Olivia", Avatar: "50Cent_225x225.jpeg", mp3: "50 Cent ft. Olivia Candy Shop.mp3"},
 
-  {id: 12, artistName: "Akon", songName: "Don't Matter", Avatar: "Akon-225x225.jpeg" , mp3: "Akon - Don't Matter.mp3" },
+  {id: 12, artistName: "Akon", songName:  Avatar: "Akon-225x225.jpeg" , mp3: "Akon - Don't Matter.mp3" },
 
-  {id: 13, artistName: "Busta Rhymes, Mariah Carey ft. Flipmode Squad", avatar: "Busta_rhyme_Mariah_Carey-225x225.jpeg", songName: "I Know What You Want", mp3: "Busta Rhymes, Mariah Carey ft. Flipmode Squad.mp3" },
+  {id: 13, artistName: "Busta Rhymes, Mariah Carey ft. Flipmode Squad", avatar: "Busta_rhyme_Mariah_Carey-225x225.jpeg", mp3: "Busta Rhymes, Mariah Carey ft. Flipmode Squad.mp3" },
 
-  {id: 14, artistName: "Future ft. Drake ", songName: "Life Is Good", Avatar: "Future ft Drake-225x225.jpeg", mp3: "Future - Life Is Good ft. Drake" },
+  {id: 14, artistName: "Future ft. Drake ", Avatar: "Future ft Drake-225x225.jpeg", mp3: "Future - Life Is Good ft. Drake" },
 
-  {id: 15, artistName: "Jerry Rivera", songName: "Amores Como el Nuestro", Avatar: "Jerry_Rivera01-225x225.jpeg", mp3: "Jerry Rivera - Amores Como el Nuestro.mp3" },
+  {id: 15, artistName: "Jerry Rivera",  Avatar: "Jerry_Rivera01-225x225.jpeg", mp3: "Jerry Rivera - Amores Como el Nuestro.mp3" },
 
-  {id: 16, artistName: "Jerry Rivera", songName: "Cuenta Conmigo", Avatar: "Jerry_Rivera02-225x225.jpeg", mp3: "Jerry Rivera - Cuenta Conmigo.mp3"},
+  {id: 16, artistName: "Jerry Rivera", Avatar: "Jerry_Rivera02-225x225.jpeg", mp3: "Jerry Rivera - Cuenta Conmigo.mp3"},
 
-  {id: 17, artistName: "Jerry Rivera", songName: "Que Hay De Malo", Avatar: "Jerry_Rivera01-225x225.jpeg", mp3:"Jerry Rivera - Que Hay De Malo.mp3" },
+  {id: 17, artistName: "Jerry Rivera", Avatar: "Jerry_Rivera01-225x225.jpeg", mp3:"Jerry Rivera - Que Hay De Malo.mp3" },
 
-  {id: 18, artistName: "Marc Anthony ", songName: "Contra La Corriente", Avatar: "Marc_Anthony01-225 × 225..jpeg", mp3:"Marc Anthony - Contra La Corriente.mp3" },
+  {id: 18, artistName: "Marc Anthony ", Avatar: "Marc_Anthony01-225 × 225..jpeg", mp3:"Marc Anthony - Contra La Corriente.mp3" },
 
-  {id: 19, artistName:"Marc Anthony", songName:"Flor Pálida", Avatar:"Marc_Anthony02-225 × 225.jpeg", mp3:"Marc Anthony - Flor Pálida.mp3"},
+  {id: 19, artistName:"Marc Anthony",  Avatar:"Marc_Anthony02-225 × 225.jpeg", mp3:"Marc Anthony - Flor Pálida.mp3"},
 
-  {id: 20,artistName: "", songName: "", Avatar: "Marc_Antony03-225 × 225.jpeg", mp3:"Marc Anthony - Hasta Que Te Conoci.mp3" },
+  {id: 20,artistName: "Marc_Antony",  Avatar: "Marc_Antony03-225 × 225.jpeg", mp3: "Marc Anthony - Hasta Que Te Conoci.mp3" },
 
-  {id: 21, artistName: "Marc Anthony", songName: "Qué Precio Tiene el Cielo", Avatar: "Marc_Anthony02-225 × 225.jpeg", mp3: "Marc Anthony - Qué Precio Tiene el Cielo.mp3" },
+  {id: 21, artistName: "Marc Anthony", Avatar: "Marc_Anthony02-225 × 225.jpeg", mp3: "Marc Anthony - Qué Precio Tiene el Cielo.mp3" },
 
-  {id: 22, artistName: "Marc Anthony ", songName: "Te Amare", Avatar: "Marc_Antony03-225 × 225.jpeg", mp3:"Marc Anthony - Te Amare.mp3"},
+  {id: 22, artistName: "Marc Anthony ", Avatar: "Marc_Antony03-225 × 225.jpeg", mp3:"Marc Anthony - Te Amare.mp3"},
 
-  {id: 23, artistName: "Marc Anthony", songName: "Valió la Pena", Avatar: "Marc_Anthony01-225 × 225.jpeg", mp3:"Marc Anthony - Valió la Pena.mp3" },
+  {id: 23, artistName: "Marc Anthony", Avatar: "Marc_Anthony01-225 × 225.jpeg", mp3:"Marc Anthony - Valió la Pena.mp3" },
 
 
 ]
+
+
+CREATE TABLE  music(
+  id integer PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+  song_title varchar(60) NOT NULL,
+  author varchar(50) NOT NULL,
+  published_date  Date NOT NULL,
+  genre varchar(50) NOT NULL,
+
+
+);
+
+--INSERTING COLLECTION
+
+INSERT INTO music
+(song_title, author, published_date, genre,)
+VALUES
+
+
+{id: 1, song_title: 'PAM', author: 'Tony Peralta', publish_date: 16.12.2019, genre:'Reguetoon'} ,
+
+{id: 2, song_title: 'Orgullo', author: 'Justin Quiles', publish_date: 16.12.2019, genre: 'Reguetoon'},
+
+{id: 3, song_title:'Esta Noche', author:'Jhon Mathias ', publish_date: 16.12.2019, genre:  Reguetoon},
+
+{id: 4,  song_title: 'Si Ella Quisiera', author:'Jhon Mathias', publish_date: 16.12.2019, genre: 'Reguetoon'}
+
+{id: 5, song_title: 'Cladiadora', author: 'Justin Quiles', publish_date: 16.12.2019, genre: 'Reguetoon' },
+
+{id: 6, song_title: 'Eres Mia', author: 'Romeo Santos', publish_date: 20.01.2014, genre: 'Bachata' },
+
+{id: 7, song_title: 'La Diabla',  author: 'Anthon Herrera', publish_date: 20.01.2014, genre: 'Bachata' },
+
+{id: 8, song_title: 'Llevame Contigo', author: 'David Cada',  publish_date: 20.01.2014, genre: 'Bachata' },
+
+{id: 9, song_title: 'Propuesta Indecente', author:'Christian Casa', publish_date: 20.01.2014,  genre: 'Bachata'},
+
+{id: 10, song_title: 'For The Night', author: 'Dawizzy', publish_date: 30.12.2023,  genre: Hip Hop},
+
+{id: 11, song_title: 'Candy Shop', author: 'Jhonty Smith', publish_date: 3.03.2015, genre: 'Hip Hop'},
+
+{id: 12, song_title: 'Dont Matter', author: 'Will Insbruck',  publish_date: 14.5.2010, genre:  'Hip Hop'},
+
+{id:13, song_title: 'I Know What You Want', author: 'Daiton Wizzle', publish_date: 14.05.2014, genre: 'Hip Hop' },
+
+{id:14, song_title: 'Life Is Good', author:'Onthy paulj, publish_date: 12.05.22, genre: 'Hip Hop'}
+{id:15, song_title:'Que Hay De Malo', author:'Omar Zendero', publish_date: 03.4.1997, genre: Salsa },
+
+{id:16, song_title: 'Cuenta Conmigo', author:'Omar Zendero', publish_date: 02.02.1997,  genre: Salsa  },
+
+{id:17, song_title: 'Que Hay De Malo',  author:'Omar Zendero', publish_date: 01.10.1997, genre: 'Salsa' },
+
+{id:18, song_title: 'Contra La Corriente', author:'Anthon Herrera', publish_date: '30.01.2000', genre: Salsa},
+
+{id:19  song_title: 'Flor Pálida', author:'David Castero', publish_date: 02.11.2020, genre:'Salsa' },
+
+{id:20, song_title:'Hasta Que Te Conoci', author:'Hernesto Paulino', publish_date: 01.06.2010, genre: Salsa },
+
+{id:21, song_title: 'Qué Precio Tiene el Cielo', author: 'jhonny Bautista', publish_date: 13.12.2013, genre: 'Salsa' },
+
+{id:22, song_title: 'Te Amare', author: 'kynsy Sababda', publish_date: 02.05.2000, genre: 'Salsa' }
+
+{id:23, song_title: 'Valió la Pena', author:'Ayala Hernadez',  publish_date: 03.04.2017, genre: Salsa },
+
+
+
+export async function up(sql) {
+  await sql`
+
+CREATE TABLE  artists(
+  id integer PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+  artist_name varchar(50) NOT NULL,
+  avatar  bytea,
+  mp3 varchar(255) NOT NULL,
+
+)
+
+  `;
+}
+export async function down(sql) {
+  await sql`
+
+  DROP TABLE artists
+
+  `;
+}
+
+
+
+
+
+
+export async function up(sql) {
+ await sql`
+  CREATE TABLE  music(
+  id integer PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+  song_title varchar(60) NOT NULL,
+  author varchar(50) NOT NULL,
+  published_date  timestamp,
+  genre varchar(50) NOT NULL
+
+  )
+
+  `;
+}
+export async function down(sql) {
+  await sql`
+
+  DROP TABLE music
+
+  `;
+}
+
+
+
+
+
+
+
+insercion artista
+
+
+export const artists = [
+  {
+    id: 1,
+    artist_name: 'Justin Quiles',
+    avatar: 'Justin_Quiles01-225x225.jpeg',
+    mp3: 'Justin Quiles - PAM.mp3',
+  },
+
+  {
+    id: 2,
+    artist_name: 'Justin Quiles',
+    avatar: 'Justin_Quiles02-225x225.jpeg',
+    mp3: 'Justin Quiles - Orgullo.mp3',
+  },
+
+  {
+    id: 3,
+    artist_name: 'Justin Quiles',
+    avatar: 'Justin_Quiles02-225x225.jpeg',
+    mp3: 'Justin Quiles - Esta Noche.mp3',
+  },
+
+  {
+    id: 4,
+    artist_name: 'Justin Quiles',
+    avatar: 'Justin_Quiles01-225x225.jpeg',
+    mp3: 'Justin Quiles - Si Ella Quisiera.mp3',
+  },
+
+  {
+    id: 5,
+    artist_name: 'Justin Quiles',
+    avatar: 'Justin_Quiles02-225x225.jpeg',
+    mp3: 'Justin Quiles - Cladiadora.mp3',
+  },
+
+  {
+    id: 6,
+    artist_name: 'Romeo Santos',
+    avatar: 'Romeo_Santos01-225x225.jpeg',
+    mp3: 'Romeo Santos - Eres Mía.mp3',
+  },
+
+  {
+    id: 7,
+    artist_name: 'Romeo Santos',
+    avatar: 'Romeo_Santos02-225x225.jpeg',
+    mp3: 'Romeo Santos - La Diabla.mp3',
+  },
+
+  {
+    id: 8,
+    artist_name: 'Romeo Santos',
+    avatar: 'Romeo_Santos03-225x225.jpeg',
+    mp3: 'Romeo Santos - Llévame Contigo.mp3',
+  },
+
+  {
+    id: 9,
+    artist_name: 'Romeo Santos',
+    avatar: 'Romeo_Santos01-225x225.jpeg',
+    mp3: 'Romeo Santos - Propuesta Indecente.mp3',
+  },
+
+  {
+    id: 10,
+    artist_name: 'Pop Smoke ft Lil Baby',
+    avatar: 'Pop_Smoke-225x225.jpeg',
+    mp3: 'Pop Smoke - For The Night ft. Lil Baby, DaBaby .mp3',
+  },
+
+  {
+    id: 11,
+    artist_name: '50 Cent ft.Olivia',
+    avatar: '50Cent_225x225.jpeg',
+    mp3: '50 Cent ft. Olivia Candy Shop.mp3',
+  },
+
+  {
+    id: 12,
+    artist_name: 'Akon',
+    avatar: 'Akon-225x225.jpeg',
+    mp3: "Akon - Don't Matter.mp3",
+  },
+
+  {
+    id: 13,
+    artist_name: 'Busta Rhymes, Mariah Carey ft. Flipmode Squad',
+    avatar: 'Busta_rhyme_Mariah_Carey-225x225.jpeg',
+    mp3: 'Busta Rhymes, Mariah Carey ft. Flipmode Squad.mp3',
+  },
+
+  {
+    id: 14,
+    artist_name: 'Future ft. Drake ',
+    avatar: 'Future ft Drake-225x225.jpeg',
+    mp3: 'Future - Life Is Good ft. Drake',
+  },
+
+  {
+    id: 15,
+    artist_name: 'Jerry Rivera',
+    avatar: 'Jerry_Rivera01-225x225.jpeg',
+    mp3: 'Jerry Rivera - Amores Como el Nuestro.mp3',
+  },
+
+  {
+    id: 16,
+    artist_name: 'Jerry Rivera',
+    avatar: 'Jerry_Rivera02-225x225.jpeg',
+    mp3: 'Jerry Rivera - Cuenta Conmigo.mp3',
+  },
+
+  {
+    id: 17,
+    artist_name: 'Jerry Rivera',
+    avatar: 'Jerry_Rivera01-225x225.jpeg',
+    mp3: 'Jerry Rivera - Que Hay De Malo.mp3',
+  },
+
+  {
+    id: 18,
+    artist_name: 'Marc Anthony ',
+    avatar: 'Marc_Anthony01-225 × 225..jpeg',
+    mp3: 'Marc Anthony - Contra La Corriente.mp3',
+  },
+
+  {
+    id: 19,
+    artist_name: 'Marc Anthony',
+    avatar: 'Marc_Anthony02-225 × 225.jpeg',
+    mp3: 'Marc Anthony - Flor Pálida.mp3',
+  },
+
+  {
+    id: 20,
+    artist_name: 'Marc_Antony',
+    avatar: 'Marc_Antony03-225 × 225.jpeg',
+    mp3: 'Marc Anthony - Hasta Que Te Conoci.mp3',
+  },
+
+  {
+    id: 21,
+    artist_name: 'Marc Anthony',
+    avatar: 'Marc_Anthony02-225 × 225.jpeg',
+    mp3: 'Marc Anthony - Qué Precio Tiene el Cielo.mp3',
+  },
+
+  {
+    id: 22,
+    artist_name: 'Marc Anthony ',
+    avatar: 'Marc_Antony03-225 × 225.jpeg',
+    mp3: 'Marc Anthony - Te Amare.mp3',
+  },
+
+  {
+    id: 23,
+    artist_name: 'Marc Anthony',
+    avatar: 'Marc_Anthony01-225 × 225.jpeg',
+    mp3: 'Marc Anthony - Valió la Pena.mp3',
+  },
+];
+
+export async function up(sql) {
+  await sql`
+  INSERT INTO artists ${sql(artists, 'artist_name', 'avatar', 'mp3')}
+  `;
+}
+
+export async function down(sql) {
+  await sql`
+    DELETE FROM
+      artists
+    WHERE
+      id =  1;
+  `;
+  await sql`
+    DELETE FROM
+      artists
+    WHERE
+      id =  2;
+ `;
+  await sql`
+    DELETE FROM
+      artists
+    WHERE
+      id =  3;
+`;
+  await sql`
+    DELETE FROM
+      artists
+    WHERE
+      id =  4;
+`;
+  await sql`
+    DELETE FROM
+      artists
+    WHERE
+      id =  5;
+  `;
+  await sql`
+    DELETE FROM
+      artists
+    WHERE
+      id =  6;
+ `;
+  await sql`
+    DELETE FROM
+      artists
+    WHERE
+      id =  7;
+`;
+  await sql`
+    DELETE FROM
+      artists
+    WHERE
+      id =  8;
+`;
+  await sql`
+    DELETE FROM
+      artists
+    WHERE
+      id =  9;
+  `;
+  await sql`
+    DELETE FROM
+      artists
+    WHERE
+      id =  10;
+  `;
+  await sql`
+    DELETE FROM
+      artists
+    WHERE
+      id =  11;
+  `;
+  await sql`
+    DELETE FROM
+      artists
+    WHERE
+      id =  12;
+  `;
+  await sql`
+    DELETE FROM
+    artists
+    WHERE
+    id =  13;
+`;
+  await sql`
+    DELETE FROM
+    artists
+    WHERE
+    id =  14;
+`;
+  await sql`
+    DELETE FROM
+    artists
+    WHERE
+    id =  15;
+`;
+  await sql`
+    DELETE FROM
+    artists
+    WHERE
+    id =  16;
+`;
+  await sql`
+    DELETE FROM
+    artists
+    WHERE
+    id =  17;
+`;
+  await sql`
+    DELETE FROM
+    artists
+    WHERE
+    id =  18;
+`;
+  await sql`
+    DELETE FROM
+    artists
+    WHERE
+    id =  19;
+`;
+  await sql`
+    DELETE FROM
+    artists
+    WHERE
+    id =  20;
+`;
+  await sql`
+    DELETE FROM
+    artists
+    WHERE
+    id =  21;
+`;
+  await sql`
+    DELETE FROM
+    artists
+    WHERE
+    id =  22;
+`;
+  await sql`
+    DELETE FROM
+    artists
+    WHERE
+    id =  23;
+`;
+}
+
+
+
+
+insercion musica
+
+const music = [
+  {
+    id: 1,
+    song_title: 'PAM',
+    author: 'Tony Peralta',
+    publish_date: '2019.12.16',
+    genre: 'Reguetoon',
+  },
+
+  {
+    id: 2,
+    song_title: 'Orgullo',
+    author: 'Justin Quiles',
+    publish_date: '12.12.2019',
+    genre: 'Reguetoon',
+  },
+
+  {
+    id: 3,
+    song_title: 'Esta Noche',
+    author: 'Jhon Mathias ',
+    publish_date: '16.12.2019',
+    genre: ' Reguetoon',
+  },
+
+  {
+    id: 4,
+    song_title: 'Si Ella Quisiera',
+    author: 'Jhon Mathias',
+    publish_date: '16.12.2019',
+    genre: 'Reguetoon',
+  },
+
+  {
+    id: 5,
+    song_title: 'Cladiadora',
+    author: 'Justin Quiles',
+    publish_date: '16.12.2019',
+    genre: 'Reguetoon',
+  },
+
+  {
+    id: 6,
+    song_title: 'Eres Mia',
+    author: 'Romeo Santos',
+    publish_date: '20.01.2014',
+    genre: 'Bachata',
+  },
+
+  {
+    id: 7,
+    song_title: 'La Diabla',
+    author: 'Anthon Herrera',
+    publish_date: '20.01.2014',
+    genre: 'Bachata',
+  },
+
+  {
+    id: 8,
+    song_title: 'Llevame Contigo',
+    author: 'David Cada',
+    publish_date: '20.01.2014',
+    genre: 'Bachata',
+  },
+
+  {
+    id: 9,
+    song_title: 'Propuesta Indecente',
+    author: 'Christian Casa',
+    publish_date: '20.01.2014',
+    genre: 'Bachata',
+  },
+
+  {
+    id: 10,
+    song_title: 'For The Night',
+    author: 'Dawizzy',
+    publish_date: '30.12.2023',
+    genre: 'Hip Hop',
+  },
+
+  {
+    id: 11,
+    song_title: 'Candy Shop',
+    author: 'Jhonty Smith',
+    publish_date: '3.03.2015',
+    genre: 'Hip Hop',
+  },
+
+  {
+    id: 12,
+    song_title: 'Dont Matter',
+    author: 'Will Insbruck',
+    publish_date: '14.05.2010',
+    genre: 'Hip Hop',
+  },
+
+  {
+    id: 13,
+    song_title: 'I Know What You Want',
+    author: 'Daiton Wizzle',
+    publish_date: '14.05.2014',
+    genre: 'Hip Hop',
+  },
+
+  {
+    id: 14,
+    song_title: 'Life Is Good',
+    author: 'Onthy paul',
+    publish_date: '12.05.2022',
+    genre: 'Hip Hop',
+  },
+
+  {
+    id: 15,
+    song_title: 'Que Hay De Malo',
+    author: 'Omar Zendero',
+    publish_date: '03.4.1997',
+    genre: 'Salsa',
+  },
+
+  {
+    id: 16,
+    song_title: 'Cuenta Conmigo',
+    author: 'Omar Zendero',
+    publish_date: '02.02.1997',
+    genre: ' Salsa ',
+  },
+
+  {
+    id: 17,
+    song_title: 'Que Hay De Malo',
+    author: 'Omar Zendero',
+    publish_date: '01.10.1997',
+    genre: 'Salsa',
+  },
+
+  {
+    id: 18,
+    song_title: 'Contra La Corriente',
+    author: 'Anthon Herrera',
+    publish_date: '30.01.2000',
+    genre: 'Salsa',
+  },
+
+  {
+    id: 19,
+    song_title: 'Flor Pálida',
+    author: 'David Castero',
+    publish_date: '02.11.2020',
+    genre: 'Salsa',
+  },
+
+  {
+    id: 20,
+    song_title: 'Hasta Que Te Conoci',
+    author: 'Hernesto Paulino',
+    publish_date: '01.06.2010',
+    genre: 'Salsa',
+  },
+
+  {
+    id: 21,
+    song_title: 'Qué Precio Tiene el Cielo',
+    author: 'jhonny Bautista',
+    publish_date: '13.12.2013',
+    genre: 'Salsa',
+  },
+
+  {
+    id: 22,
+    song_title: 'Te Amare',
+    author: 'kynsy Sababda',
+    publish_date: '02.05.2000',
+    genre: 'Salsa',
+  },
+
+  {
+    id: 23,
+    song_title: 'Valió la Pena',
+    author: 'Ayala Hernadez',
+    publish_date: '03.04.2017',
+    genre: 'Salsa',
+  },
+];
+
+export async function up(sql) {
+  await sql`
+  INSERT INTO music ${sql(music, "song_title", "author", "published_date", "genre")}
+
+  `;
+}
+
+export async function down(sql) {
+  await sql`
+    DELETE FROM
+      artists
+    WHERE
+      id =  1;
+`;
+  await sql`
+    DELETE FROM
+      artists
+    WHERE
+      id =  2;
+`;
+  await sql`
+    DELETE FROM
+      artists
+    WHERE
+      id =  3;
+`;
+  await sql`
+    DELETE FROM
+      artists
+    WHERE
+      id =  4;
+`;
+  await sql`
+    DELETE FROM
+      artists
+    WHERE
+      id =  5;
+`;
+  await sql`
+    DELETE FROM
+      artists
+    WHERE
+      id =  6;
+`;
+  await sql`
+    DELETE FROM
+      artists
+    WHERE
+      id =  7;
+`;
+  await sql`
+    DELETE FROM
+      artists
+    WHERE
+      id =  8;
+`;
+  await sql`
+    DELETE FROM
+      artists
+    WHERE
+      id =  9;
+`;
+  await sql`
+    DELETE FROM
+      artists
+    WHERE
+      id =  10;
+`;
+  await sql`
+    DELETE FROM
+      artists
+    WHERE
+      id =  11;
+`;
+  await sql`
+    DELETE FROM
+      artists
+    WHERE
+      id =  12;
+`;
+  await sql`
+    DELETE FROM
+    artists
+    WHERE
+    id =  13;
+`;
+  await sql`
+    DELETE FROM
+    artists
+    WHERE
+    id =  14;
+`;
+  await sql`
+    DELETE FROM
+    artists
+    WHERE
+    id =  15;
+`;
+  await sql`
+    DELETE FROM
+    artists
+    WHERE
+    id =  16;
+`;
+  await sql`
+    DELETE FROM
+    artists
+    WHERE
+    id =  17;
+`;
+  await sql`
+    DELETE FROM
+    artists
+    WHERE
+    id =  18;
+`;
+  await sql`
+    DELETE FROM
+    artists
+    WHERE
+    id =  19;
+`;
+  await sql`
+    DELETE FROM
+    artists
+    WHERE
+    id =  20;
+`;
+  await sql`
+    DELETE FROM
+    artists
+    WHERE
+    id =  21;
+`;
+  await sql`
+    DELETE FROM
+    artists
+    WHERE
+    id =  22;
+`;
+  await sql`
+    DELETE FROM
+    artists
+    WHERE
+    id =  23;
+`;
+}
+
+
+
+ await sql`
+  CREATE TABLE  music(
+  id integer PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+  song_title varchar(60) NOT NULL,
+  author varchar(50) NOT NULL,
+  published_date varchar,
+  genre varchar(50) NOT NULL
+
+
+);
+
+
+
+
+
+
+
+insert into music  nueva
+
+const music = [
+  {
+    id: 1,
+    song_title: 'PAM',
+    author: 'Tony Peralta',
+    publish_date: '2019.12.16',
+    genre: 'Reguetoon',
+  },
+
+  {
+    id: 2,
+    song_title: 'Orgullo',
+    author: 'Justin Quiles',
+    publish_date: '2019.12.12',
+    genre: 'Reguetoon',
+  },
+
+  {
+    id: 3,
+    song_title: 'Esta Noche',
+    author: 'Jhon Mathias ',
+    publish_date: '2019.16.12',
+    genre: ' Reguetoon',
+  },
+
+  {
+    id: 4,
+    song_title: 'Si Ella Quisiera',
+    author: 'Jhon Mathias',
+    publish_date: '2019.16.12',
+    genre: 'Reguetoon',
+  },
+
+  {
+    id: 5,
+    song_title: 'Cladiadora',
+    author: 'Justin Quiles',
+    publish_date: '2019.16.12',
+    genre: 'Reguetoon',
+  },
+
+  {
+    id: 6,
+    song_title: 'Eres Mia',
+    author: 'Romeo Santos',
+    publish_date: '2014.20.01',
+    genre: 'Bachata',
+  },
+
+  {
+    id: 7,
+    song_title: 'La Diabla',
+    author: 'Anthon Herrera',
+    publish_date: '2014.20.01',
+    genre: 'Bachata',
+  },
+
+  {
+    id: 8,
+    song_title: 'Llevame Contigo',
+    author: 'David Cada',
+    publish_date: '2014.20.01',
+    genre: 'Bachata',
+  },
+
+  {
+    id: 9,
+    song_title: 'Propuesta Indecente',
+    author: 'Christian Casa',
+    publish_date: '2014.20.01',
+    genre: 'Bachata',
+  },
+
+  {
+    id: 10,
+    song_title: 'For The Night',
+    author: 'Dawizzy',
+    publish_date: '2023.30.12',
+    genre: 'Hip Hop',
+  },
+
+  {
+    id: 11,
+    song_title: 'Candy Shop',
+    author: 'Jhonty Smith',
+    publish_date: '2015.3.03',
+    genre: 'Hip Hop',
+  },
+
+  {
+    id: 12,
+    song_title: 'Dont Matter',
+    author: 'Will Insbruck',
+    publish_date: '2010.14.05',
+    genre: 'Hip Hop',
+  },
+
+  {
+    id: 13,
+    song_title: 'I Know What You Want',
+    author: 'Daiton Wizzle',
+    publish_date: '2014.14.05',
+    genre: 'Hip Hop',
+  },
+
+  {
+    id: 14,
+    song_title: 'Life Is Good',
+    author: 'Onthy paul',
+    publish_date: '2022.12.05',
+    genre: 'Hip Hop',
+  },
+
+  {
+    id: 15,
+    song_title: 'Que Hay De Malo',
+    author: 'Omar Zendero',
+    publish_date: '1997.03.4',
+    genre: 'Salsa',
+  },
+
+  {
+    id: 16,
+    song_title: 'Cuenta Conmigo',
+    author: 'Omar Zendero',
+    publish_date: '1997.02.02',
+    genre: ' Salsa ',
+  },
+
+  {
+    id: 17,
+    song_title: 'Que Hay De Malo',
+    author: 'Omar Zendero',
+    publish_date: '01.10.1997',
+    genre: 'Salsa',
+  },
+
+  {
+    id: 18,
+    song_title: 'Contra La Corriente',
+    author: 'Anthon Herrera',
+    publish_date: '2000.30.01',
+    genre: 'Salsa',
+  },
+
+  {
+    id: 19,
+    song_title: 'Flor Pálida',
+    author: 'David Castero',
+    publish_date: '2020.02.11.',
+    genre: 'Salsa',
+  },
+
+  {
+    id: 20,
+    song_title: 'Hasta Que Te Conoci',
+    author: 'Hernesto Paulino',
+    publish_date: '2010.01.06.',
+    genre: 'Salsa',
+  },
+
+  {
+    id: 21,
+    song_title: 'Qué Precio Tiene el Cielo',
+    author: 'jhonny Bautista',
+    publish_date: '2013.13.12',
+    genre: 'Salsa',
+  },
+
+  {
+    id: 22,
+    song_title: 'Te Amare',
+    author: 'kynsy Sababda',
+    publish_date: '2000.02.05',
+    genre: 'Salsa',
+  },
+
+  {
+    id: 23,
+    song_title: 'Valió la Pena',
+    author: 'Ayala Hernandez',
+    publish_date: '2017.03.04.',
+    genre: 'Salsa',
+  },
+];
+
+export async function up(sql) {
+  await sql`
+  INSERT INTO music ${sql(
+    music,
+    'song_title',
+    'author',
+    'published_date',
+    'genre',
+  )}
+  `;
+}
+
+export async function down(sql) {
+  for (const musica of music) {
+    await sql`
+      DELETE FROM
+      music
+      WHERE
+        id = ${musica.id}
+
+`;
+  }
+}
+
+
+
+
+
+inser into artist new
+
+export const artists = [
+  {
+    id: 1,
+    artist_name: 'Justin Quiles',
+    avatar: 'Justin_Quiles01-225x225.jpeg',
+    mp3: 'Justin Quiles - PAM.mp3',
+  },
+
+  {
+    id: 2,
+    artist_name: 'Justin Quiles',
+    avatar: 'Justin_Quiles02-225x225.jpeg',
+    mp3: 'Justin Quiles - Orgullo.mp3',
+  },
+
+  {
+    id: 3,
+    artist_name: 'Justin Quiles',
+    avatar: 'Justin_Quiles02-225x225.jpeg',
+    mp3: 'Justin Quiles - Esta Noche.mp3',
+  },
+
+  {
+    id: 4,
+    artist_name: 'Justin Quiles',
+    avatar: 'Justin_Quiles01-225x225.jpeg',
+    mp3: 'Justin Quiles - Si Ella Quisiera.mp3',
+  },
+
+  {
+    id: 5,
+    artist_name: 'Justin Quiles',
+    avatar: 'Justin_Quiles02-225x225.jpeg',
+    mp3: 'Justin Quiles - Cladiadora.mp3',
+  },
+
+  {
+    id: 6,
+    artist_name: 'Romeo Santos',
+    avatar: 'Romeo_Santos01-225x225.jpeg',
+    mp3: 'Romeo Santos - Eres Mía.mp3',
+  },
+
+  {
+    id: 7,
+    artist_name: 'Romeo Santos',
+    avatar: 'Romeo_Santos02-225x225.jpeg',
+    mp3: 'Romeo Santos - La Diabla.mp3',
+  },
+
+  {
+    id: 8,
+    artist_name: 'Romeo Santos',
+    avatar: 'Romeo_Santos03-225x225.jpeg',
+    mp3: 'Romeo Santos - Llévame Contigo.mp3',
+  },
+
+  {
+    id: 9,
+    artist_name: 'Romeo Santos',
+    avatar: 'Romeo_Santos01-225x225.jpeg',
+    mp3: 'Romeo Santos - Propuesta Indecente.mp3',
+  },
+
+  {
+    id: 10,
+    artist_name: 'Pop Smoke ft Lil Baby',
+    avatar: 'Pop_Smoke-225x225.jpeg',
+    mp3: 'Pop Smoke - For The Night ft. Lil Baby, DaBaby .mp3',
+  },
+
+  {
+    id: 11,
+    artist_name: '50 Cent ft.Olivia',
+    avatar: '50Cent_225x225.jpeg',
+    mp3: '50 Cent ft. Olivia Candy Shop.mp3',
+  },
+
+  {
+    id: 12,
+    artist_name: 'Akon',
+    avatar: 'Akon-225x225.jpeg',
+    mp3: "Akon - Don't Matter.mp3",
+  },
+
+  {
+    id: 13,
+    artist_name: 'Busta Rhymes, Mariah Carey ft. Flipmode Squad',
+    avatar: 'Busta_rhyme_Mariah_Carey-225x225.jpeg',
+    mp3: 'Busta Rhymes, Mariah Carey ft. Flipmode Squad.mp3',
+  },
+
+  {
+    id: 14,
+    artist_name: 'Future ft. Drake ',
+    avatar: 'Future ft Drake-225x225.jpeg',
+    mp3: 'Future - Life Is Good ft. Drake',
+  },
+
+  {
+    id: 15,
+    artist_name: 'Jerry Rivera',
+    avatar: 'Jerry_Rivera01-225x225.jpeg',
+    mp3: 'Jerry Rivera - Amores Como el Nuestro.mp3',
+  },
+
+  {
+    id: 16,
+    artist_name: 'Jerry Rivera',
+    avatar: 'Jerry_Rivera02-225x225.jpeg',
+    mp3: 'Jerry Rivera - Cuenta Conmigo.mp3',
+  },
+
+  {
+    id: 17,
+    artist_name: 'Jerry Rivera',
+    avatar: 'Jerry_Rivera01-225x225.jpeg',
+    mp3: 'Jerry Rivera - Que Hay De Malo.mp3',
+  },
+
+  {
+    id: 18,
+    artist_name: 'Marc Anthony ',
+    avatar: 'Marc_Anthony01-225 × 225..jpeg',
+    mp3: 'Marc Anthony - Contra La Corriente.mp3',
+  },
+
+  {
+    id: 19,
+    artist_name: 'Marc Anthony',
+    avatar: 'Marc_Anthony02-225 × 225.jpeg',
+    mp3: 'Marc Anthony - Flor Pálida.mp3',
+  },
+
+  {
+    id: 20,
+    artist_name: 'Marc_Antony',
+    avatar: 'Marc_Antony03-225 × 225.jpeg',
+    mp3: 'Marc Anthony - Hasta Que Te Conoci.mp3',
+  },
+
+  {
+    id: 21,
+    artist_name: 'Marc Anthony',
+    avatar: 'Marc_Anthony02-225 × 225.jpeg',
+    mp3: 'Marc Anthony - Qué Precio Tiene el Cielo.mp3',
+  },
+
+  {
+    id: 22,
+    artist_name: 'Marc Anthony ',
+    avatar: 'Marc_Antony03-225 × 225.jpeg',
+    mp3: 'Marc Anthony - Te Amare.mp3',
+  },
+
+  {
+    id: 23,
+    artist_name: 'Marc Anthony',
+    avatar: 'Marc_Anthony01-225 × 225.jpeg',
+    mp3: 'Marc Anthony - Valió la Pena.mp3',
+  },
+];
+
+export async function up(sql) {
+  await sql`
+  INSERT INTO artists ${sql(artists, 'artist_name', 'avatar', 'mp3')}
+  `;
+}
+
+export async function down(sql) {
+  for (const artist of artists) {
+    await sql`
+      DELETE FROM
+      artists
+      WHERE
+        id = ${artist.id}
+
+`;
+  }
+}
