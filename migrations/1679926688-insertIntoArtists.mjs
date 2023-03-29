@@ -156,7 +156,7 @@ export const artists = [
   {
     id: 23,
     artist_name: 'Marc Anthony',
-    avatar: 'Marc_Anthony01-225 × 225.jpeg',
+    avatar: 'Marc_Anthony01.jpeg',
     mp3: 'Marc Anthony - Valió la Pena.mp3',
   },
 ];

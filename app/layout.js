@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
           <nav>
             <ImageLogo />
             <Link href="/">Home</Link>
-            <Link href="/playlist">Playlist</Link>
+            <Link href="/artists">Artists</Link>
             <Link href="/galery">Galery</Link>
             <Link href="/register">Register</Link>
             <Link href="/login">Login</Link>
