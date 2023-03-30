@@ -8,26 +8,33 @@ import {
 
 export default async function ArtistPage() {
   const allArtists = await getAllArtists();
-
+  console.log(allArtists);
   return (
-    <main>
-      <h1>AlL Starts</h1>
-      <div>
-        {allArtists.map((artists) => {
-          return (
-            <div key={`artists-${artists.id}`}>
-              <h2>{artists.artist_name}</h2>
-
-              <Image
-                src={`/avatar-${artists.avatar}`}
-                alt="Picture of the author"
-                width="255"
-                height="255"
-              />
-            </div>
-          );
-        })}
-      </div>
-    </main>
+    <div className="container">
+      <thead>
+        <tr>
+          <th> List of all Artists </th>
+        </tr>
+      </thead>
+      <table>
+        <tbody>
+          <tr>
+            {allArtists.map((artists) => {
+              return (
+                <td key={`artists${artists.id}`}>
+                  {artists.artist_name}
+                  <Image
+                    src={`/${artists.avatar}`}
+                    alt="Picture of the author"
+                    width="500"
+                    height="500"
+                  />
+                </td>
+              );
+            })}
+          </tr>
+        </tbody>
+      </table>
+    </div>
   );
 }

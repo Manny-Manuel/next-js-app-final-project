@@ -9,7 +9,7 @@ type Artists = {
 };
 
 // get all the artists
-export const getArtist = cache(async (artist_name: string) => {
+export const getSingleArtist = cache(async (artist_name: string) => {
   const [artists] = await sql<Artists[]>`
     SELECT
       *

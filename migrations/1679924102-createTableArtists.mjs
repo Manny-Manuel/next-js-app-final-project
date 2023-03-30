@@ -3,7 +3,7 @@ export async function up(sql) {
   CREATE TABLE  artists(
   id integer PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
   artist_name varchar(50) NOT NULL,
-  avatar  bytea,
+  avatar varchar(255) NOT NULL ,
   mp3 varchar(255) NOT NULL
 
 )
